@@ -31,6 +31,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/_headers",
               "src/_routes.json"
             ],
             "styles": [

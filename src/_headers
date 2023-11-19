@@ -1,0 +1,5 @@
+https://google.com/*
+  Access-Control-Allow-Origin: https://google.com/
+
+https://google.com/
+  Access-Control-Allow-Origin: https://google.com/
