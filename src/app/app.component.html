@@ -142,7 +142,7 @@
   .pill-group .pill:nth-child(6n + 2) {
     --pill-accent: var(--french-violet);
   }
-  .pill-group .pill:nth-child(6n + 3), 
+  .pill-group .pill:nth-child(6n + 3),
   .pill-group .pill:nth-child(6n + 4),
   .pill-group .pill:nth-child(6n + 5) {
     --pill-accent: var(--hot-red);
@@ -234,6 +234,7 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <button (click)="onApiRequest()">API Request</button>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
